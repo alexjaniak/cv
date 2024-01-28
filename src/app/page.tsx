@@ -159,9 +159,22 @@ export default function Page() {
           })}
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">Notable Coursework</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.courses.map((course) => {
+              return <Badge key={course}>{course}</Badge>;
+            })}
+          </div>
+        </Section>
+        <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.technologies.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
             })}
           </div>
@@ -181,6 +194,12 @@ export default function Page() {
                 />
               );
             })}
+          </div>
+        </Section>
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Papers</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+            
           </div>
         </Section>
       </section>

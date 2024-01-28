@@ -34,7 +34,7 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
    yarn install
    ```
 
-4. Start the local Server:
+4. Start the local Server\\\\\\\\
 
    ```bash
    yarn dev

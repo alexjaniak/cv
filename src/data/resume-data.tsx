@@ -1,278 +1,191 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Alexander Janiak",
+  initials: "AJ",
+  location: "Durham, NC",
+  locationLink: "https://www.google.com/maps/place/Durham+NC",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "",
+  avatarUrl: "https://avatars.githubusercontent.com/u/41028719?s=400&u=69fcceedef9c2a81a81511e554b9bb72339c42e3&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "alexander.janiak@outlook.com",
+    tel: "+19084006216",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/alexjaniak",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/alexander-janiak",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/waniak_",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Duke University",
+      degree: "B.S in Computer Science; B.A in Philosophy; Minor in Mathematics",
+      start: "2021",
+      end: "2025",
     },
+    {
+      school: "Governor Livingston High School",
+      start: "2016",
+      end: "2020",
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Panoptyc",
+      link: "https://panoptyc.com/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      title: "Research & Development Intern",
+      start: "Jun. 2023",
+      end: "Current",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Spice Finance",
+      link: "https://www.spicefi.xyz/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      title: "Software Developer",
+      start: "May 2022",
+      end: "Aug. 2022",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "NJIT Provost Research Program",
+      link: "https://github.com/alexjaniak/mdt-research",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Research Intern",
+      start: "June 2019",
+      end: "Aug. 2019",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "C",
+    "Java",
+    "HTML/CSS",
+    "JavaScript/TypeScript",
+    "React/Next.js",
+    "SQL",
+    "Racket",
+  ],
+  technologies: [
+    "Git",
+    "PyTorch",
+    "Keras/Tensorflow",
+    "NumPy",
+    "Pandas",
+    "TCP/IP"
+  ],
+  courses: [
+    "Neural Networks & Deep Learning",
+    "Design & Analysis of Algorithms",
+    "Data Structures & Algorithms",
+    "Abstract Algebra",
+    "Probability",
+    "Vector Calculus",
+    "Intro to Computer Systems",
+    "Logic",
+    "Matrices & Vector Spaces",
+    "Computer Network Architecture",
+    "Discrete Math for Computer Science"
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "ZKMNIST-Noir",
       techStack: [
-        "Side Project",
-        "TypeScript",
+        "Python",
+        "Keras/Tensorflow",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "TypeScript"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Zero knowledge web application to prove/verify the output of a neural network",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "@alexjaniak/ZKMNIST-Noir",
+        href: "https://zkmnist-noir.netlify.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "Pentris-RL",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Python",
+        "PyTorch",
+        "NumPy"
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "5-piece Tetris AI implemented using a Deep Reinforcement Learning Q Network",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "@alexjaniak/Pentris-RL",
+        href: "https://colab.research.google.com/drive/10XFwhRMLbL1qFtpOA_fdNH_gNTBUqHkq?usp=sharing",
       },
     },
     {
-      title: "Evercast",
+      title: "encrypt",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Python",
+        "SQLite",
+        "Click"
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "A command-line interface for locally-encrypting files",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "@alexjaniak/encrypt",
+        href: "https://github.com/alexjaniak/encrypt",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+      title: "clpm",
+      techStack: [
+        "Python",
+        "SQLite",
+        "Click"
+      ],
+      description: "A locally-encrypted command-line password manager",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "@alexjaniak/clpm",
+        href: "https://github.com/alexjaniak/clpm",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+      title: "Fractal Explorer",
+      techStack: [
+        "Unity",
+        "C#",
+        "HLSL"
+      ],
+      description: "Unity application to explore the Mandelbrot and Julia fractal sets",
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "@alexjaniak/Fractal-Explorer",
+        href: "https://www.alexjaniak.com/explorer.html",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+      title: "Calculator",
+      techStack: [
+        "JavaScript",
+        "HTML/CSS",
+      ],
+      description: "Neomorphism inspired calculator",
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "@alexjaniak/Calculator",
+        href: "https://www.alexjaniak.com/calculator/",
       },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
